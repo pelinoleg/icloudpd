@@ -5,7 +5,7 @@ tagline: Automated iCloud Photo Downloader
 icon: https://svgshare.com/i/17fm.svg
 category: files
 version: "1.0.0"
-port: 8888
+port: 12341234
 description: >-
   A Docker container for iCloudPD, allowing automated download of photos from iCloud to your local storage.
 
