@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  icloudpd:
+    image: boredazfcuk/icloudpd
+    container_name: icloudpd
+    volumes:
+      - /home/umbrel/umbrel/data/storage/icloud-config:/config
+      - /home/umbrel/umbrel/data/storage/icloud-photos:/icloud
+    environment:
+      - APPLE_ID=snaizy@gmail.com
+      - TZ=Europe/Madrid
+      - AUTO_DELETE=true
+      - DOWNLOAD_PATH=/icloud
+      - DIRECTORY_PERMISSIONS=777
+      - FILE_PERMISSIONS=666
+    restart: always
+
+
+volumes:
+  icloudpd_config:

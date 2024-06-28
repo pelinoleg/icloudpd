@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: icloudpd
+name: iCloudPD
+tagline: Automated iCloud Photo Downloader
+icon: https://svgshare.com/i/17fm.svg
+category: files
+version: "1.0.0"
+port: 8888
+description: >-
+  A Docker container for iCloudPD, allowing automated download of photos from iCloud to your local storage.
+
+developer: Pelin Oleg
+website: https://github.com/boredazfcuk/docker-icloudpd
+submitter: Pelin Oleg
+submission: https://github.com/pelinoleg/icloudpd2
+repo: https://github.com/boredazfcuk/docker-icloudpd
+support: https://github.com/boredazfcuk/docker-icloudpd/issues
+
+gallery:
+  - https://opengraph.githubassets.com/d3eae9393a8c0c5cc61de0bdd66bbf8b7932e05d257a75d26fcdefe8a68ec67a/boredazfcuk/docker-icloudpd
+
+releaseNotes: >-
+  Initial release of iCloudPD on Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
